@@ -63,6 +63,8 @@ The simulator in the simulator-linux folder is not my work — it is part of Uda
 
 The core model architecture is based on NVIDIA's research paper mentioned above. This implementation is for educational and research purposes only.
 
+The drive.py script is not my work — it is part of the Udemy self driving car course and is included here to enable running the trained model in the simulator.
+
 ## 📌 References
 
 NVIDIA: End to End Learning for Self-Driving Cars, 2016. arXiv:1604.07316
