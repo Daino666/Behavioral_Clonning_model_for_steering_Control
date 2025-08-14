@@ -26,8 +26,8 @@ IN THE SOFTWARE.
 
 This repository contains files that are not covered by the MIT License above:
 
-1. **`drive.py`** — Copyright Udacity.  
-   License: See [Udacity Self-Driving Car Nanodegree Terms](https://www.udacity.com/legal).
+1. **`drive.py`** — Provided as part of the Udemy course "The complete self-driving car course-Applied Deep learning"
+
 
 2. **`simulator-linux/`** — Udacity Self-Driving Car Simulator.  
    License: See [Udacity Self-Driving Car Simulator GitHub](https://github.com/udacity/self-driving-car-sim).
