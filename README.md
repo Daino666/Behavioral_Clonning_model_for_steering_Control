@@ -29,6 +29,34 @@ End to End Learning for Self-Driving Cars — M. Bojarski et al., NVIDIA, 2016.
 Paper Link
 
 
+
+## Training the Model
+
+### Prepare your dataset
+
+  Collect driving data using the simulator in training mode.
+
+  The dataset should be stored in the photos/ directory (or update the notebook path accordingly).
+
+### Open the training notebook
+
+  jupyter notebook Behavioral_cloning_project.ipynb
+
+
+### Run the cells in the notebook to:
+
+  Load and preprocess the data
+
+  Train the CNN model based on NVIDIA's architecture (with small modifications)
+
+### Save the trained model to the models/ folder
+
+  Test your newly trained model in the simulator by running:
+```
+    python models/drive.py models/<your_model>.h5
+```
+
+
 ## ⚠️ Disclaimer
 
 The simulator in the simulator-linux folder is not my work — it is part of Udacity's Self-Driving Car Simulator and is included here only for testing purposes. All copyrights belong to their respective owners.
