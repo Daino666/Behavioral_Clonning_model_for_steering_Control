@@ -26,7 +26,8 @@ This project uses a Convolutional Neural Network (CNN) to learn steering command
 The architecture is inspired by NVIDIA's paper:
 
 End to End Learning for Self-Driving Cars — M. Bojarski et al., NVIDIA, 2016.
-Paper Link
+
+[Paper Link](https://arxiv.org/abs/1604.07316)
 
 
 
