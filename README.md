@@ -5,6 +5,8 @@
 This repository contains an implementation of a behavioral cloning model for autonomous driving based on the NVIDIA End-to-End Learning for Self-Driving Cars research paper. The model is trained to predict steering angles from camera images using deep learning.
 
 ## Repository Structure
+
+```
 photos/                            # Dataset images used for training/testing
 models/
 ├── Behavioral_clonning_model.h5                  # Pre-trained behavioral cloning model
@@ -16,6 +18,7 @@ models/
 README.md
 simulator-linux/ 
 
+```
 
 ## Project Description
 
