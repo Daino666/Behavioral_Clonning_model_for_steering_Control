@@ -71,3 +71,5 @@ The drive.py script is not my work — it is part of the Udemy self driving car 
 NVIDIA: [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
 
 Udacity Self-Driving Car Simulator: [GitHub Link](https://github.com/udacity/self-driving-car-sim)
+
+[Udemy Self Driving car course] (https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/)
