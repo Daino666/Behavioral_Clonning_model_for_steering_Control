@@ -16,7 +16,7 @@ models/
 ├── Behavioral_clonning_model_my_data.h5
 └── drive.py                                       # Script to run the trained model in the simulator
 README.md
-simulator-linux/ 
+simulator-linux/                                   #this ths the code for training and evaluating the model
 
 ```
 
