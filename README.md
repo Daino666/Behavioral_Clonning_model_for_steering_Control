@@ -7,16 +7,17 @@ This repository contains an implementation of a behavioral cloning model for aut
 ## Repository Structure
 
 ```
-photos/                            # Dataset images used for training/testing
+Behavioral_cloning_project.ipynb                  # The code for training and evaluating the model after data augmentation
+photos/                                           # Dataset images used for training/testing
 models/
 ├── Behavioral_clonning_model.h5                  # Pre-trained behavioral cloning model
 ├── Behavioral_clonning_model_my_data(1).h5
 ├── Behavioral_clonning_model_my_data_3.h5
 ├── Behavioral_clonning_model_my_data_4.h5
 ├── Behavioral_clonning_model_my_data.h5
-└── drive.py                                       # Script to run the trained model in the simulator
+└── drive.py                                      # Script to run the trained model in the simulator
 README.md
-simulator-linux/                                   #this ths the simulator used for testing the model on Linux 
+simulator-linux/                                  # This ths the simulator used for testing the model on Linux 
 
 ```
 
