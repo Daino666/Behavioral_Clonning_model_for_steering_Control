@@ -40,6 +40,8 @@ End to End Learning for Self-Driving Cars — M. Bojarski et al., NVIDIA, 2016.
 
   The dataset should be stored in the photos/ directory (or update the notebook path accordingly).
 
+  Make sure to replace the reposoitroy used in cells to your own repo with your stored Photos in it. 
+  
 ### Open the training notebook
 
   jupyter notebook Behavioral_cloning_project.ipynb
