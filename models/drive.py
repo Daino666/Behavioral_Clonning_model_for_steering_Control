@@ -11,7 +11,7 @@ import cv2
 sio = socketio.Server()
  
 app = Flask(__name__) #'__main__'
-speed_limit = 8
+speed_limit = 9
 def img_preprocess(img):
     img = img[60:135,:,:]
     img = cv2.cvtColor(img, cv2.COLOR_RGB2YUV)
@@ -50,6 +50,6 @@ def send_control(steering_angle, throttle):
  
  
 if __name__ == '__main__':
-    model = load_model('Behavioral_clonning_model_my_data_3.h5')
+    model = load_model('Behavioral_clonning_model.h5')
     app = socketio.Middleware(sio, app)
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)
